@@ -6,8 +6,17 @@
 #define IDD_ABOUTBOX                    100
 #define IDS_ABOUTBOX                    101
 #define IDD_VIEWER_DIALOG               102
+#define IDD_DIALOGBAR                   103
 #define IDR_MAINFRAME                   128
 #define IDR_MENU1                       129
+#define IDD_DIALOG1                     131
+#define IDD_RAWINFODIALOG               133
+#define IDD_DIALOG2                     135
+#define IDC_RADIO_GRAYFORMAT            1000
+#define IDC_RADIO_YUV420FORMAT          1001
+#define IDC_RADIO_YUV444FORMAT          1002
+#define IDC_EDIT_HEIGHT                 1004
+#define IDC_EDIT_WIDTH                  1005
 #define ID_FILE_FILEOPEN                32771
 #define ID_FILE_FILESAVE                32772
 #define ID_FILE_FILECLOSE               32773
@@ -19,9 +28,9 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        131
+#define _APS_NEXT_RESOURCE_VALUE        137
 #define _APS_NEXT_COMMAND_VALUE         32777
-#define _APS_NEXT_CONTROL_VALUE         1000
+#define _APS_NEXT_CONTROL_VALUE         1006
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
