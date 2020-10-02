@@ -35,7 +35,6 @@ protected:
 public:
 	afx_msg void OnClickRadio(UINT msg);
 	int m_radio_rawFileInfo;
-
 	afx_msg void OnBnClickedOk();
 	afx_msg void OnBnClickedCancel();
 };

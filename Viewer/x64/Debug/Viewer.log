@@ -3,12 +3,9 @@ C:\opencv\build\include\opencv2\core\mat.hpp(1965,1): warning C4819: 현재 코�
 C:\opencv\build\include\opencv2\core\persistence.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\opencv\build\include\opencv2\core\utility.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\opencv\build\include\opencv2\core\utility.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(208,51): warning C4244: '=': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-          with
-          [
-              _Tp=uchar
-          ]
-C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(248,47): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(257,42): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(266,41): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(262,47): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(271,42): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(280,41): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(441,48): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\source\repos\Viewer\Viewer\ViewerDlg.cpp(535,16): warning C4244: '=': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Viewer.vcxproj -> C:\Users\pc\source\repos\Viewer\x64\Debug\Viewer.exe

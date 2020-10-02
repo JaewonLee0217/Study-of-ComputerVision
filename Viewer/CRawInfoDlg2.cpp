@@ -13,9 +13,7 @@ IMPLEMENT_DYNAMIC(CRawInfoDlg2, CDialogEx)
 
 CRawInfoDlg2::CRawInfoDlg2(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_RAWINFODIALOG, pParent)
-	, m_radio_rawFileInfo(0)
-	, m_EditHeight(0)
-	, m_EditWidth(0)
+	
 {
 	nFormat = 3;
 }
@@ -32,10 +30,6 @@ void CRawInfoDlg2::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_EDIT_HEIGHT, m_EditHeight);
 	DDX_Control(pDX, IDC_EDIT_WIDTH, m_EditWidth);
 
-
-	DDX_Text(pDX, IDC_EDIT_WIDTH, m_EditHeight);
-	DDX_Text(pDX, IDC_EDIT_HEIGHT, m_EditHeight);
-	DDX_Text(pDX, IDC_EDIT_WIDTH, m_EditWidth);
 }
 
 
@@ -53,7 +47,11 @@ void CRawInfoDlg2::OnBnClickedOk()
 {
 	CString cTemp1, cTemp2;
 
+	m_EditWidth.GetWindowTextA(cTemp2);
 	m_EditHeight.GetWindowTextA(cTemp1);
+
+	nHeight = atoi(cTemp1);
+	nWidth = atoi(cTemp2);
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CDialogEx::OnOK();
 }
