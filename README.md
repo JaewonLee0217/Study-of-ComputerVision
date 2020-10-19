@@ -10,4 +10,6 @@ Study of ComputerVision & Image/Video Processing
 -filtering & Removing Noise 
 
 
-Convolution
+Convolution 
+
+Arithmetic Mean filter
