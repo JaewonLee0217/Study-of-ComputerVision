@@ -13,3 +13,5 @@ Study of ComputerVision & Image/Video Processing
 Convolution 
 
 Arithmetic Mean filter
+
+Affine trans..
